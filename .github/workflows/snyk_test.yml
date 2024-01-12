@@ -9,7 +9,7 @@ jobs:
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/python-3.8@master
         env:
-          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
 # name: Example workflow for Python-3.8 using Snyk
 
 # on:
